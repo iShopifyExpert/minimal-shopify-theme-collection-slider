@@ -30,7 +30,24 @@ $(document).on('ready', function() {
  }).fadeIn(1500);
 });
 </script>
-
+<style>
+.slick-initialized .slick-slide a {
+    outline: 0 !important;
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 35px;
+    opacity: 1;
+    color: #000;
+}
+.slick-next {
+    left: 10px !important;
+    z-index: 1;
+}
+.slick-prev {
+    right: 25px !important;
+    z-index: 1;
+}
+</style>
 {% schema %}
 {
   "name": {
