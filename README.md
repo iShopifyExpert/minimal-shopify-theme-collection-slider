@@ -1,0 +1,1 @@
+# minimal-shopify-theme-collection-slider
